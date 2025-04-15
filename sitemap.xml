@@ -2,14 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nacog.github.io/posts/</loc>
-    <lastmod>2025-04-15T12:58:05+08:00</lastmod>
+    <loc>https://example.com/</loc>
+    <lastmod>2025-04-15T13:28:45+08:00</lastmod>
   </url><url>
-    <loc>https://nacog.github.io/</loc>
-    <lastmod>2025-04-15T12:58:05+08:00</lastmod>
+    <loc>https://example.com/post/</loc>
+    <lastmod>2025-04-15T13:28:45+08:00</lastmod>
   </url><url>
-    <loc>https://nacog.github.io/categories/</loc>
+    <loc>https://example.com/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nacog.github.io/tags/</loc>
+    <loc>https://example.com/page/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/</loc>
+  </url><url>
+    <loc>https://example.com/links/</loc>
+  </url><url>
+    <loc>https://example.com/search/</loc>
+  </url><url>
+    <loc>https://example.com/tags/</loc>
+  </url><url>
+    <loc>https://example.com/categories/test/</loc>
+  </url><url>
+    <loc>https://example.com/%E5%85%B3%E4%BA%8E/</loc>
   </url>
 </urlset>
