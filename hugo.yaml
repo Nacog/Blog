@@ -1,4 +1,4 @@
-baseurl: https://nacog.github.io/Blog/
+baseurl: https://nacog.github.io/Blog
 languageCode: zh-cn
 theme: hugo-theme-stack
 title: Nacocx's Blog
