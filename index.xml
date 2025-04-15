@@ -2,25 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Nacocx&#39;s Blog</title>
-        <link>https://example.com/</link>
+        <link>https://nacog.github.io/</link>
         <description>Recent content on Nacocx&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Nacocx</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 15 Apr 2025 13:28:45 +0800</lastBuildDate><atom:link href="https://nacog.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>MyFirstBlog</title>
+        <link>https://nacog.github.io/p/myfirstblog/</link>
+        <pubDate>Tue, 15 Apr 2025 13:28:45 +0800</pubDate>
+        
+        <guid>https://nacog.github.io/p/myfirstblog/</guid>
+        <description>&lt;h1 id=&#34;1&#34;&gt;1
+&lt;/h1&gt;&lt;p&gt;你好&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Archives</title>
-        <link>https://example.com/archives/</link>
+        <link>https://nacog.github.io/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/archives/</guid>
+        <guid>https://nacog.github.io/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Links</title>
-        <link>https://example.com/links/</link>
+        <link>https://nacog.github.io/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/links/</guid>
+        <guid>https://nacog.github.io/links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -52,18 +62,18 @@
         </item>
         <item>
         <title>Search</title>
-        <link>https://example.com/search/</link>
+        <link>https://nacog.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/search/</guid>
+        <guid>https://nacog.github.io/search/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://example.com/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://nacog.github.io/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://nacog.github.io/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;Nacocx&amp;rsquo;s Blog&lt;/p&gt;
 </description>
         </item>
