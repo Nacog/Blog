@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>CTF on Nacocx&#39;s Blog</title>
-        <link>https://nacog.github.io/Blog/categories/ctf/</link>
-        <description>Recent content in CTF on Nacocx&#39;s Blog</description>
+        <title>PHP on Nacocx&#39;s Blog</title>
+        <link>https://nacog.github.io/Blog/tags/php/</link>
+        <description>Recent content in PHP on Nacocx&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Nacocx</copyright>
-        <lastBuildDate>Sun, 20 Apr 2025 22:51:55 +0800</lastBuildDate><atom:link href="https://nacog.github.io/Blog/categories/ctf/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 20 Apr 2025 22:51:55 +0800</lastBuildDate><atom:link href="https://nacog.github.io/Blog/tags/php/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>文件上传漏洞－PHP一句话木马</title>
         <link>https://nacog.github.io/Blog/p/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9Ephp%E4%B8%80%E5%8F%A5%E8%AF%9D%E6%9C%A8%E9%A9%AC/</link>
         <pubDate>Sun, 20 Apr 2025 22:51:55 +0800</pubDate>
