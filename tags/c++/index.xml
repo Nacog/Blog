@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>C&#43;&#43; on Nacocx&#39;s Blog</title>
-        <link>https://nacog.github.io/Blog/tags/c&#43;&#43;/</link>
+        <link>http://localhost:1313/Blog/tags/c&#43;&#43;/</link>
         <description>Recent content in C&#43;&#43; on Nacocx&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Nacocx</copyright>
-        <lastBuildDate>Tue, 15 Apr 2025 13:28:45 +0800</lastBuildDate><atom:link href="https://nacog.github.io/Blog/tags/c++/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 15 Apr 2025 13:28:45 +0800</lastBuildDate><atom:link href="http://localhost:1313/Blog/tags/c++/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>CPP 文件操作</title>
-        <link>https://nacog.github.io/Blog/p/cpp-%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/</link>
+        <link>http://localhost:1313/Blog/p/cpp-%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/</link>
         <pubDate>Tue, 15 Apr 2025 13:28:45 +0800</pubDate>
         
-        <guid>https://nacog.github.io/Blog/p/cpp-%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/</guid>
+        <guid>http://localhost:1313/Blog/p/cpp-%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/</guid>
         <description>&lt;h1 id=&#34;cpp-文件操作&#34;&gt;CPP 文件操作
 &lt;/h1&gt;&lt;h2 id=&#34;1顺序文件&#34;&gt;1.顺序文件
 &lt;/h2&gt;&lt;p&gt;以结构体数据操作为例，&lt;del&gt;顺便练习一下Lambda表达式&lt;/del&gt;&lt;/p&gt;

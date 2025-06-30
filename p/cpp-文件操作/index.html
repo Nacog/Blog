@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/Blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=Blog/livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="CPP 文件操作 1.顺序文件 以结构体数据操作为例，顺便练习一下Lambda表达式\n1 2 3 4 5 6 7 8 9 10 typedef struct Student{ string name; int age; double height; Student(string n,int a,double h):name(n),age(a),height(h){} friend ofstream &amp;operator&lt;&lt;(ofstream &amp;out,const Student &amp;stu){ out&lt;&lt;stu.name&lt;&lt;&#34;\\t&#34;&lt;&lt;stu.age&lt;&lt;&#34;\\t&#34;&lt;&lt;stu.height&lt;&lt;&#34;\\n&#34;; return out; } }St; 文件流写入数据 1 2 3 4 5 6 7 8 9 10 string filepath=&#34;/home/sora/DOCS/my1/test001.txt&#34;; function&lt;void()&gt; writedata=[&amp;filepath](){ St s1(&#34;张三三&#34;,19,1.77); St s2(&#34;李四&#34;,20,1.75); ofstream out1; out1.open(filepath);//打开文件到内存缓冲区（out1-&gt;该文件内存缓冲） out1&lt;&lt;s1&lt;&lt;s2; out1.close(); }; writedata(); 文件流读取数据 以空格分开读 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 string filepath=&#34;/home/sora/DOCS/my1/test001.txt&#34;; function&lt;void()&gt; readdata=[&amp;filepath](){ ifstream cin1; cin1.open(filepath); function&lt;void()&gt; cin1out=[&amp;cin1](int columns=3){ string str; int cnt=0; while(cin1&gt;&gt;str){ if(cnt==columns){cout&lt;&lt;&#39;\\n&#39;;cnt=0;} cout&lt;&lt;str&lt;&lt;&#39;\\t&#39;; cnt++; } }; cin1out(); cin1.close(); }; readdata(); 以行分开读 1 2 3 4 5 6 7 8 9 10 11 12 string filepath=&#34;/home/sora/DOCS/my1/test001.txt&#34;; function&lt;void()&gt; readdataln=[&amp;filepath](){ ifstream cin1; cin1.open(filepath); string str; while(!cin1.eof()){ getline(cin1,str); cout&lt;&lt;str&lt;&lt;&#39;\\n&#39;; } cin1.close(); }; readdataln(); 2.随机文件 当 St 结构体包含字符串（如string name）时，直接二进制读写会导致问题。因为字符串通常是动态分配的，直接写入指针值而不是实际字符串内容。故我们需要修改结构体：\n">
 <title>CPP 文件操作</title>
 
-<link rel='canonical' href='https://nacog.github.io/Blog/p/cpp-%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/'>
+<link rel='canonical' href='http://localhost:1313/Blog/p/cpp-%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/'>
 
 <link rel="stylesheet" href="/Blog/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="CPP 文件操作">
 <meta property='og:description' content="CPP 文件操作 1.顺序文件 以结构体数据操作为例，顺便练习一下Lambda表达式\n1 2 3 4 5 6 7 8 9 10 typedef struct Student{ string name; int age; double height; Student(string n,int a,double h):name(n),age(a),height(h){} friend ofstream &amp;operator&lt;&lt;(ofstream &amp;out,const Student &amp;stu){ out&lt;&lt;stu.name&lt;&lt;&#34;\\t&#34;&lt;&lt;stu.age&lt;&lt;&#34;\\t&#34;&lt;&lt;stu.height&lt;&lt;&#34;\\n&#34;; return out; } }St; 文件流写入数据 1 2 3 4 5 6 7 8 9 10 string filepath=&#34;/home/sora/DOCS/my1/test001.txt&#34;; function&lt;void()&gt; writedata=[&amp;filepath](){ St s1(&#34;张三三&#34;,19,1.77); St s2(&#34;李四&#34;,20,1.75); ofstream out1; out1.open(filepath);//打开文件到内存缓冲区（out1-&gt;该文件内存缓冲） out1&lt;&lt;s1&lt;&lt;s2; out1.close(); }; writedata(); 文件流读取数据 以空格分开读 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 string filepath=&#34;/home/sora/DOCS/my1/test001.txt&#34;; function&lt;void()&gt; readdata=[&amp;filepath](){ ifstream cin1; cin1.open(filepath); function&lt;void()&gt; cin1out=[&amp;cin1](int columns=3){ string str; int cnt=0; while(cin1&gt;&gt;str){ if(cnt==columns){cout&lt;&lt;&#39;\\n&#39;;cnt=0;} cout&lt;&lt;str&lt;&lt;&#39;\\t&#39;; cnt++; } }; cin1out(); cin1.close(); }; readdata(); 以行分开读 1 2 3 4 5 6 7 8 9 10 11 12 string filepath=&#34;/home/sora/DOCS/my1/test001.txt&#34;; function&lt;void()&gt; readdataln=[&amp;filepath](){ ifstream cin1; cin1.open(filepath); string str; while(!cin1.eof()){ getline(cin1,str); cout&lt;&lt;str&lt;&lt;&#39;\\n&#39;; } cin1.close(); }; readdataln(); 2.随机文件 当 St 结构体包含字符串（如string name）时，直接二进制读写会导致问题。因为字符串通常是动态分配的，直接写入指针值而不是实际字符串内容。故我们需要修改结构体：\n">
-<meta property='og:url' content='https://nacog.github.io/Blog/p/cpp-%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/'>
+<meta property='og:url' content='http://localhost:1313/Blog/p/cpp-%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/'>
 <meta property='og:site_name' content='Nacocx&#39;s Blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='c&#43;&#43;' /><meta property='article:tag' content='lambda' /><meta property='article:published_time' content='2025-04-15T13:28:45&#43;08:00'/><meta property='article:modified_time' content='2025-04-15T13:28:45&#43;08:00'/>
 <meta name="twitter:title" content="CPP 文件操作">
@@ -772,7 +772,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/Blog/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+            </script><script type="text/javascript" src="/Blog/ts/main.30c0d5732b44814ab6e103bf8b63ea2f699e2cb030f92beda8f4b4847b6ada96.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

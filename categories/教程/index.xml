@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>教程 on Nacocx&#39;s Blog</title>
-        <link>https://nacog.github.io/Blog/categories/%E6%95%99%E7%A8%8B/</link>
+        <link>http://localhost:1313/Blog/categories/%E6%95%99%E7%A8%8B/</link>
         <description>Recent content in 教程 on Nacocx&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Nacocx</copyright>
-        <lastBuildDate>Wed, 16 Apr 2025 17:54:43 +0800</lastBuildDate><atom:link href="https://nacog.github.io/Blog/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 16 Apr 2025 17:54:43 +0800</lastBuildDate><atom:link href="http://localhost:1313/Blog/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>保姆级教程，教你用Hugo&#43;github pages搭建属于自己的免费博客(一)</title>
-        <link>https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/</link>
+        <link>http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/</link>
         <pubDate>Wed, 16 Apr 2025 17:54:43 +0800</pubDate>
         
-        <guid>https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/</guid>
+        <guid>http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/</guid>
         <description>&lt;p&gt;注：本教程仅适用于有一定计算机基础知识，并且会百度、问AI的人&lt;/p&gt;
 &lt;h2 id=&#34;1环境搭建&#34;&gt;1.环境搭建
 &lt;/h2&gt;&lt;ol&gt;
@@ -25,10 +25,10 @@
 &lt;/ol&gt;
 &lt;h3 id=&#34;下载hugo并配置hugo&#34;&gt;下载Hugo，并配置Hugo
 &lt;/h3&gt;&lt;p&gt;选择Hugo_extended_0.146.5_windows-amd64.zip
-&lt;img src=&#34;https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image1.png&#34;
+&lt;img src=&#34;http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image1.png&#34;
 	width=&#34;669&#34;
 	height=&#34;238&#34;
-	srcset=&#34;https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image1_hu_6a116097503073f0.png 480w, https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image1_hu_83e5beb9c4356142.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image1_hu_6a116097503073f0.png 480w, http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image1_hu_83e5beb9c4356142.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;img1&#34;
@@ -41,10 +41,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;解压下来，复制解压目录的位置
 搜索环境变量
-&lt;img src=&#34;https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image2.png&#34;
+&lt;img src=&#34;http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image2.png&#34;
 	width=&#34;774&#34;
 	height=&#34;492&#34;
-	srcset=&#34;https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image2_hu_efe439a945e27e73.png 480w, https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image2_hu_a6169ee1980520aa.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image2_hu_efe439a945e27e73.png 480w, http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image2_hu_a6169ee1980520aa.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;img2&#34;
@@ -56,10 +56,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;选择右下角的环境变量，进入后双击上面用户变量的&lt;code&gt;Path&lt;/code&gt;，让后新建，粘贴刚才复制的文件位置
-&lt;img src=&#34;https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image3.png&#34;
+&lt;img src=&#34;http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image3.png&#34;
 	width=&#34;355&#34;
 	height=&#34;43&#34;
-	srcset=&#34;https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image3_hu_41c603c3ad28f85d.png 480w, https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image3_hu_75aa29f46d83a745.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image3_hu_41c603c3ad28f85d.png 480w, http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image3_hu_75aa29f46d83a745.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;img3&#34;
@@ -73,10 +73,10 @@
 &lt;p&gt;在cmd输入&lt;code&gt;hugo version&lt;/code&gt;检验安装&lt;/p&gt;
 &lt;h2 id=&#34;2开始&#34;&gt;2.开始
 &lt;/h2&gt;&lt;p&gt;打开Vscode,在终端中输入&lt;code&gt;hugo new site blog&lt;/code&gt;(blog可以改成其它名字)
-&lt;img src=&#34;https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image4.png&#34;
+&lt;img src=&#34;http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image4.png&#34;
 	width=&#34;795&#34;
 	height=&#34;208&#34;
-	srcset=&#34;https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image4_hu_7a11f14e09a4b144.png 480w, https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image4_hu_a95b096a22a17613.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image4_hu_7a11f14e09a4b144.png 480w, http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image4_hu_a95b096a22a17613.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;img4&#34;
@@ -93,10 +93,10 @@
 本教程将采用&lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Stack&lt;/a&gt;主题
 、下载并且解压完毕后，目录应该是这样的(我把Stack主题版本号删了)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image5.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image5.png&#34;
 	width=&#34;248&#34;
 	height=&#34;612&#34;
-	srcset=&#34;https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image5_hu_6671c7955b06b65e.png 480w, https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image5_hu_c2fabe3a5e8d5b39.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image5_hu_6671c7955b06b65e.png 480w, http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image5_hu_c2fabe3a5e8d5b39.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;img5&#34;
@@ -118,10 +118,10 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;到blog目录
 然后在控制台输入&lt;code&gt;hugo server&lt;/code&gt;启动，在浏览器访问&lt;code&gt;localhost:1313&lt;/code&gt;打开博客
-&lt;img src=&#34;https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image6.png&#34;
+&lt;img src=&#34;http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image6.png&#34;
 	width=&#34;1444&#34;
 	height=&#34;706&#34;
-	srcset=&#34;https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image6_hu_d39975767427075.png 480w, https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image6_hu_c9bbecd0375ca229.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image6_hu_d39975767427075.png 480w, http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image6_hu_c9bbecd0375ca229.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;img6&#34;
@@ -140,10 +140,10 @@
 &lt;p&gt;在之后有时间我会继续写如何配置网页，这里先部署&lt;/p&gt;
 &lt;h2 id=&#34;3部署到github-pages&#34;&gt;3.部署到Github Pages
 &lt;/h2&gt;&lt;p&gt;在github新建仓库&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image7.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image7.png&#34;
 	width=&#34;833&#34;
 	height=&#34;854&#34;
-	srcset=&#34;https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image7_hu_4d0805f118e8823d.png 480w, https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image7_hu_7f3dadf9e6c627fb.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image7_hu_4d0805f118e8823d.png 480w, http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image7_hu_7f3dadf9e6c627fb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;img7&#34;
@@ -175,10 +175,10 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;最后在终端，输入hugo -D
 将&lt;code&gt;public&lt;/code&gt;文件夹内的所有文件复制到刚刚Clone的仓库&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image8.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image8.png&#34;
 	width=&#34;648&#34;
 	height=&#34;512&#34;
-	srcset=&#34;https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image8_hu_6be1d57e19584ca5.png 480w, https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image8_hu_4965efb841d3c80e.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image8_hu_6be1d57e19584ca5.png 480w, http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image8_hu_4965efb841d3c80e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;img8&#34;
@@ -190,10 +190,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;然后在github desktop提交(每次提交都得有Summary)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image9.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image9.png&#34;
 	width=&#34;739&#34;
 	height=&#34;540&#34;
-	srcset=&#34;https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image9_hu_4b01c9e399f1a48a.png 480w, https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image9_hu_e81672447800b7e3.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image9_hu_4b01c9e399f1a48a.png 480w, http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image9_hu_e81672447800b7e3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;img9&#34;
@@ -205,10 +205,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;然后点击右边的Publish branch&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image10.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image10.png&#34;
 	width=&#34;637&#34;
 	height=&#34;561&#34;
-	srcset=&#34;https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image10_hu_aff2b1fb133c909e.png 480w, https://nacog.github.io/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image10_hu_525c12ea7f602780.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image10_hu_aff2b1fb133c909e.png 480w, http://localhost:1313/Blog/p/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%95%99%E4%BD%A0%E7%94%A8hugo-github-pages%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2%E4%B8%80/image10_hu_525c12ea7f602780.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;img10&#34;
